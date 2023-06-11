@@ -1,0 +1,10 @@
+.Sejarah-School {
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0)10%, rgba(0, 0, 0, 1)90%), url('img/sejarah-singkat.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.nama-kepsek {
+    font-weight: 600;
+}

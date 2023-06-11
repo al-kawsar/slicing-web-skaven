@@ -56,7 +56,7 @@ body {
 
 .Home-School {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0)10%, rgba(0, 0, 0, 1)90%), url('img/home.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, .5)10%, rgba(0, 0, 0, 1)90%), url('img/home.jpeg');
     background-size: cover;
     background-position: center;
     filter: drop-shadow(100);
@@ -329,14 +329,15 @@ body {
 
 .berita-card .date {
     margin-top: 1rem;
-    line-height: 2;
+    /* line-height: 2; */
     font-weight: 600;
-    font-size: 1rem;
+    font-size: .85rem;
     font-family: var(--font-header);
     color: rgba(0, 0, 0, .55);
 }
 
 .berita-card .judul-berita {
+    margin-top: 4px;
     font-weight: 600;
     font-size: 1rem;
 }
@@ -429,12 +430,13 @@ body {
     font-weight: 500;
     bottom: 10px;
     left: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-} 
+    padding: 0 1rem;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
 
 /* Footer Page End */
 
@@ -502,6 +504,10 @@ body {
 
     .body-home .lg-title:nth-child(1) {
         font-size: 3rem;
+    }
+
+    .berita-card .Card {
+        margin-bottom: 10px;
     }
 
     .icon-container .icon .desc {

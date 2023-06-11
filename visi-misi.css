@@ -1,0 +1,27 @@
+.visi-misi {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.bg-blue {
+    color: #093F68;
+}
+
+.visi h1,.misi h1 {
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.visi .teks {
+    font-size: 1rem;
+}
+
+.misi .list {
+    display: inline-block;
+    margin-left: -15px;
+}
+
+.misi  .list .item{
+    margin-bottom: .5rem;
+}
