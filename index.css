@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    --font-header: 'Open Sans', sans-serif;
+    --font-body: 'Lato', sans-serif;
+}
+
+.lg-title,
+.sm-title {
+    font-family: var(--font-header);
+    padding: 0.6rem 0;
+    text-transform: capitalize;
+}
+
+.lg-title {
+    font-weight: 700;
+}
+
+.sm-title {
+    font-weight: 400;
+    font-family: var(--font-body);
+}
+
+/* Canvas Navbar Start */
+
+.offcanvas-body .nav-item a {
+    color: black;
+    display: inline;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
+.offcanvas-body .nav-item {
+    margin-bottom: 1rem;
+}
+
+/* Canvas Navbar End */
+
+/* Home Page Start */
+
+.Home-School {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0)10%, rgba(0, 0, 0, 1)90%), url('img/home.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(100);
+    filter: saturate(1);
+    -webkit-filter: saturate(1);
+}
+
+.Home-School #btn-nav {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    height: 30px;
+}
+
+.body-home {
+    color: white;
+    margin-top: 4rem;
+}
+
+.body-home .lg-title:nth-child(1) {
+    font-size: 4.0625rem;
+    font-weight: bold;
+}
+
+.body-home .lg-title:nth-child(2) {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Home Page End */
+
+/* About Page Start */
+
+.About-School {
+    padding-top: 70px;
+}
+
+.About-School .lg-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.About-School .sm-title {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Sambutan Kepala Sekolah */
+
+.Sambutan {
+    background-color: #43ACFE;
+    color: white;
+    margin-top: 70px;
+    padding: 1rem 0;
+}
+
+.Sambutan img {
+    display: block;
+    width: 100%;
+}
+
+.Sambutan .card {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.55);
+    padding: 2rem;
+    transform: scale(.8);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+}
+
+.Sambutan .lg-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.Sambutan .md-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.Sambutan .sm-title {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* About Page End */
+
+/* Prestasi Page Start */
+
+.Prestasi {
+    padding-top: 100px;
+    /* padding-left: 3rem; */
+    /* padding-right: 3rem; */
+}
+
+.prestasi-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.prestasi-card .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #43ACFE;
+    padding: 1rem;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
+.prestasi-card .card:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.prestasi-card .icon {
+    margin: 0 auto;
+    display: block;
+    width: 115px;
+}
+
+/* Prestasi Page End */
+
+/* Jurusan Page Start */
+
+.jurusan {
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    background-color: #013859;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.jurusan .btn {
+    background-color: white;
+    border-radius: 8px;
+    width: 15rem;
+    padding: 15px;
+    font-size: 1.125rem;
+    font-family: var(--font-body);
+    font-weight: 600;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.jurusan .btn:hover {
+    color: black;
+}
+
+.jurusan .absol {
+    position: absolute;
+}
+
+@media (width <=655px) {
+    .jurusan .absol {
+        display: none;
+    }
+}
+
+.computer {
+    bottom: 0;
+    left: 0;
+}
+
+.study {
+    bottom: -50px;
+    right: 0;
+}
+
+/* Jurusan Page End */
+
+/* Berita Page Start */
+
+.berita {
+    padding-top: 70px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.berita .header>* {
+    padding: 0;
+}
+
+.berita .lg-title {
+    position: relative;
+    font-size: 2.5rem;
+}
+
+.berita .lg-title::before {
+    content: "";
+    background-color: #FFBC0E;
+    width: 10rem;
+    height: 5px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+
+.berita .sm-title {
+    font-size: 1rem;
+}
+
+.berita-card {
+    margin-top: 70px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.berita-card .Card {
+    color: black;
+    display: block;
+    text-decoration: none;
+    max-width: 300px;
+}
+
+.berita-card .Card:hover img {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+
+.berita-card .Card .news-img {
+    overflow: hidden;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.berita-card .Card img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    ;
+}
+
+.berita-card .date {
+    margin-top: 1rem;
+    line-height: 2;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: var(--font-header);
+    color: rgba(0, 0, 0, .55);
+}
+
+.berita-card .judul-berita {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* Berita Page End */
+
+
+/* Footer Page Start */
+
+.footer {
+    background-color: #013859;
+    color: white;
+    margin-top: 70px;
+    padding: 2rem;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.footer h1 {
+    position: relative;
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+}
+
+.footer h1::after {
+    content: "";
+    width: 150px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.125rem;
+    margin-bottom: 70px;
+}
+
+.icon-container .icon {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.icon-container .icon ion-icon {
+    font-size: 2rem;
+}
+
+.footer .maps {
+    width: 100%;
+    border-radius: 8px;
+    height: 100%;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.footer .logo {
+    margin-top: 3rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .logo img {
+    width: 250px;
+}
+
+.footer .logo p {
+    font-size: 14px;
+}
+
+.footer .sosial-media ion-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: .8rem;
+    margin-right: .5rem;
+}
+
+.copyright {
+    position: absolute;
+    width: 90%;
+    font-size: .85rem;
+    font-weight: 500;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+} 
+
+/* Footer Page End */
+
+
+
+
+
+
+
+/* Laptop */
+
+@media screen and (width <=991px) {
+    .body-home .lg-title:nth-child(1) {
+        font-size: 3.5rem;
+    }
+}
+
+/* Laptop */
+
+/* Tablet */
+
+@media screen and (width <=768px) {
+    .prestasi-card {
+        flex-direction: column;
+    }
+
+    .prestasi-card .card {
+        transform: scale(.9);
+        -webkit-transform: scale(.9);
+        -moz-transform: scale(.9);
+        -ms-transform: scale(.9);
+        -o-transform: scale(.9);
+    }
+
+    .footer h1 {
+        font-size: 1.5rem;
+    }
+
+    .footer .logo {
+        align-items: start;
+        margin-top: 50px;
+    }
+
+    .icon-container .icon ion-icon {
+        font-size: 1.5rem;
+    }
+}
+
+/* Tablet */
+
+/* Mobile */
+
+@media screen and (width <=576px) {
+    .scale {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
+    .body-home {
+        margin-top: 3rem;
+    }
+
+    .body-home .lg-title:nth-child(1) {
+        font-size: 3rem;
+    }
+
+    .icon-container .icon .desc {
+        font-size: .8rem;
+    }
+}
+
+/* Mobile */
+
+/* Extra Mobile */
+
+@media screen and (width <=400px) {
+    .body-home {
+        margin-top: 2rem;
+    }
+
+    .body-home .lg-title:nth-child(1) {
+        font-size: 2.5rem;
+    }
+
+}
+
+/* Extra Mobile */
