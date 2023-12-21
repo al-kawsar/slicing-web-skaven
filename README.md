@@ -1,6 +1,6 @@
-# Slicing Web dari Desain Figma untuk Lomba Desain Grafis SMKN 7 Makassar
+# Slicing Web SMKN 7 Makassar
 
-Ini adalah repository untuk proyek slicing web yang dibuat untuk mengikuti lomba desain grafis di SMKN 7 Makassar. Proyek ini bertujuan untuk mengonversi desain dari Figma ke kode web menggunakan HTML dan CSS.
+proyek ini adalah sebuah proyek iseng yang dimana saya melakukan slicing web dari desain figma, dimana desain tersebut hasil dari mengikuti lomba desain grafis di SMKN 7 Makassar yang diadakan oleh Pak Fajar Shiddiq guru Desain grafis saya. Proyek ini bertujuan untuk mengonversi desain dari Figma ke kode web menggunakan HTML dan CSS.
 
 ## Deskripsi Proyek
 
