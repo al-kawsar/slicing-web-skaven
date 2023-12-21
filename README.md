@@ -17,4 +17,8 @@ Proyek ini bertujuan untuk mereplikasi desain dari Figma ke dalam sebuah situs w
 
 1. **Clone Repository:**
    ```bash
-   git clone https://github.com/username/nama-repo.git
+   git clone https://github.com/andirhn/slicing-web-skaven.git
+2. **Buka Proyek:**
+   ```bash
+   cd slicing-web-skaven
+3. **Jalankan Proyek**
