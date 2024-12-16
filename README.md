@@ -24,7 +24,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer Anda:
 
 1. **Clone repository ke perangkat lokal:**
    ```bash
-   git clone https://github.com/andirhn/web-skaven.git
+   git clone https://github.com/al-kawsar/web-skaven.git
    ```
 
 2. **Masuk ke direktori proyek:**
