@@ -1,7 +1,3 @@
-Berikut adalah versi yang lebih profesional, rapi, dan menarik dari README.md proyek Anda:
-
----
-
 # Slicing Web SMKN 7 Makassar
 
 Proyek ini merupakan implementasi slicing web dari desain Figma ke dalam bentuk situs web statis menggunakan teknologi web dasar. Desain awal dibuat untuk lomba desain grafis di **SMKN 7 Makassar**, yang diselenggarakan oleh **Pak Fajar Shiddiq**, guru desain grafis. Proyek ini bertujuan untuk mempraktikkan kemampuan mengonversi desain grafis menjadi kode web.
@@ -47,10 +43,6 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer Anda:
 ```
 web-skaven/
 ├── index.html    # Halaman utama
-├── css/
-│   └── style.css # File gaya utama
-└── assets/
-    └── images/   # Folder untuk gambar yang digunakan
 ```
 
 ---
@@ -71,7 +63,7 @@ Proyek ini dikembangkan oleh:
 
 ## 🌐 Tautan Terkait
 
-- [Lihat Repository di GitHub](https://github.com/andirhn/web-skaven)  
+- [Lihat Repository di GitHub](https://github.com/al-kawsar/web-skaven)  
 - [Pelajari lebih lanjut tentang SMKN 7 Makassar](https://smkn7makassar.sch.id)  
 
 ---
