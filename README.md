@@ -24,12 +24,12 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer Anda:
 
 1. **Clone repository ke perangkat lokal:**
    ```bash
-   git clone https://github.com/al-kawsar/web-skaven.git
+   git clone https://github.com/al-kawsar/slicing-web-skaven.git
    ```
 
 2. **Masuk ke direktori proyek:**
    ```bash
-   cd web-skaven
+   cd slicing-web-skaven
    ```
 
 3. **Buka file utama menggunakan browser favorit Anda:**
@@ -41,7 +41,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer Anda:
 ## 📂 Struktur Proyek
 
 ```
-web-skaven/
+slicing-web-skaven/
 ├── index.html    # Halaman utama
 ```
 
@@ -63,7 +63,7 @@ Proyek ini dikembangkan oleh:
 
 ## 🌐 Tautan Terkait
 
-- [Lihat Repository di GitHub](https://github.com/al-kawsar/web-skaven)  
+- [Lihat Repository di GitHub](https://github.com/al-kawsar/slicing-web-skaven)  
 - [Pelajari lebih lanjut tentang SMKN 7 Makassar](https://smkn7makassar.sch.id)  
 
 ---
